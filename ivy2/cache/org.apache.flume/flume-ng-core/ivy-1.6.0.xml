@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache.flume"
+		module="flume-ng-core"
+		revision="1.6.0"
+		status="release"
+		publication="20150520165024"
+	>
+		<description homepage="" />
+		<m:dependency.management__org.apache.flume.flume-ng-sources__flume-scribe-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sources__flume-scribe-source__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.8</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__org.apache.flume__flume-ng-sdk__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-sdk__version>
+		<m:dependency.management__org.apache.curator__curator-recipes__version>2.6.0</m:dependency.management__org.apache.curator__curator-recipes__version>
+		<m:dependency.management__org.apache.flume__flume-ng-sdk__scope>test</m:dependency.management__org.apache.flume__flume-ng-sdk__scope>
+		<m:dependency.management__org.apache.hive.hcatalog__hive-hcatalog-streaming__version>1.0.0</m:dependency.management__org.apache.hive.hcatalog__hive-hcatalog-streaming__version>
+		<m:dependency.management__org.apache.derby__derby__version>10.8.2.2</m:dependency.management__org.apache.derby__derby__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-hbase-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-hbase-sink__version>
+		<m:dependency.management__commons-collections__commons-collections__version>3.2.1</m:dependency.management__commons-collections__commons-collections__version>
+		<m:dependency.management__org.mortbay.jetty__jetty-util__version>6.1.26</m:dependency.management__org.mortbay.jetty__jetty-util__version>
+		<m:dependency.management__org.elasticsearch__elasticsearch__scope>test</m:dependency.management__org.elasticsearch__elasticsearch__scope>
+		<m:dependency.management__org.apache.kafka__kafka_2.10__version>0.8.1.1</m:dependency.management__org.apache.kafka__kafka_2.10__version>
+		<m:properties__kite.version>1.0.0</m:properties__kite.version>
+		<m:dependency.management__org.apache.flume__flume-ng-core__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-core__version>
+		<m:properties__xerces.version>2.9.1</m:properties__xerces.version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+		<m:dependency.management__org.apache.curator__curator-framework__version>2.6.0</m:dependency.management__org.apache.curator__curator-framework__version>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:dependency.management__org.apache.flume.flume-ng-sources__flume-jms-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sources__flume-jms-source__version>
+		<m:dependency.management__org.apache.flume.flume-ng-legacy-sources__flume-thrift-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-legacy-sources__flume-thrift-source__version>
+		<m:dependency.management__org.apache.hive__hive-metastore__version>1.0.0</m:dependency.management__org.apache.hive__hive-metastore__version>
+		<m:dependency.management__org.apache.hive__hive-cli__version>1.0.0</m:dependency.management__org.apache.hive__hive-cli__version>
+		<m:properties__stagingDirectory>${project.basedir}/target/docs</m:properties__stagingDirectory>
+		<m:dependency.management__org.apache.flume__flume-ng-embedded-agent__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-embedded-agent__version>
+		<m:dependency.management__org.apache.avro__avro-ipc__exclusion_0>org.mortbay.jetty__servlet-api</m:dependency.management__org.apache.avro__avro-ipc__exclusion_0>
+		<m:dependency.management__org.apache.flume.flume-ng-sources__flume-twitter-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sources__flume-twitter-source__version>
+		<m:dependency.management__org.apache.avro__avro-ipc__exclusion_1>io.netty__netty</m:dependency.management__org.apache.avro__avro-ipc__exclusion_1>
+		<m:dependency.management__org.apache.zookeeper__zookeeper__version>${zookeeper.version}</m:dependency.management__org.apache.zookeeper__zookeeper__version>
+		<m:dependency.management__org.apache.kafka__kafka_2.10__scope>test</m:dependency.management__org.apache.kafka__kafka_2.10__scope>
+		<m:properties__hadoop2.version>2.4.0</m:properties__hadoop2.version>
+		<m:dependency.management__com.google.code.gson__gson__version>2.2.2</m:dependency.management__com.google.code.gson__gson__version>
+		<m:dependency.management__org.apache.flume.flume-ng-channels__flume-jdbc-channel__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-channels__flume-jdbc-channel__version>
+		<m:dependency.management__org.apache.flume__flume-ng-node__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-node__version>
+		<m:dependency.management__junit__junit__version>4.10</m:dependency.management__junit__junit__version>
+		<m:dependency.management__log4j__log4j__version>1.2.17</m:dependency.management__log4j__log4j__version>
+		<m:dependency.management__org.apache.curator__curator-test__scope>test</m:dependency.management__org.apache.curator__curator-test__scope>
+		<m:dependency.management__xalan__serializer__version>2.7.2</m:dependency.management__xalan__serializer__version>
+		<m:dependency.management__org.mortbay.jetty__jetty__version>6.1.26</m:dependency.management__org.mortbay.jetty__jetty__version>
+		<m:dependency.management__org.kitesdk__kite-data-hbase__version>1.0.0</m:dependency.management__org.kitesdk__kite-data-hbase__version>
+		<m:dependency.management__org.hbase__asynchbase__version>1.5.0</m:dependency.management__org.hbase__asynchbase__version>
+		<m:dependency.management__org.twitter4j__twitter4j-media-support__version>3.0.3</m:dependency.management__org.twitter4j__twitter4j-media-support__version>
+		<e:sbtTransformHash>5719f575b89bf472b6c7168932ed8b3752733254</e:sbtTransformHash>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.rat__apache-rat-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.rat__apache-rat-plugin__null|org.apache.avro__avro-maven-plugin__null|com.thoughtworks.paranamer__paranamer-maven-plugin__null|org.apache.rat__apache-rat-plugin__null</m:maven.plugins>
+		<m:dependency.management__org.kitesdk__kite-data-hive__version>1.0.0</m:dependency.management__org.kitesdk__kite-data-hive__version>
+		<m:dependency.management__com.google.protobuf__protobuf-java__version>2.5.0</m:dependency.management__com.google.protobuf__protobuf-java__version>
+		<m:dependency.management__org.apache.hadoop__hadoop-common__version>${hadoop.version}</m:dependency.management__org.apache.hadoop__hadoop-common__version>
+		<m:dependency.management__commons-lang__commons-lang__version>2.5</m:dependency.management__commons-lang__commons-lang__version>
+		<m:dependency.management__com.google.guava__guava__version>11.0.2</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__org.mortbay.jetty__servlet-api__version>2.5-20110124</m:dependency.management__org.mortbay.jetty__servlet-api__version>
+		<m:dependency.management__org.apache.flume__flume-tools__version>1.6.0</m:dependency.management__org.apache.flume__flume-tools__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-morphline-solr-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-morphline-solr-sink__version>
+		<m:properties__avro.version>1.7.4</m:properties__avro.version>
+		<m:dependency.management__com.sun.jersey__jersey-core__version>1.8</m:dependency.management__com.sun.jersey__jersey-core__version>
+		<m:properties__test.exclude.pattern>$</m:properties__test.exclude.pattern>
+		<m:dependency.management__org.apache.flume.flume-ng-sources__flume-kafka-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sources__flume-kafka-source__version>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:dependency.management__org.hbase__asynchbase__exclusion_0>org.slf4j__log4j-over-slf4j</m:dependency.management__org.hbase__asynchbase__exclusion_0>
+		<m:properties__hive.version>1.0.0</m:properties__hive.version>
+		<m:dependency.management__org.hbase__asynchbase__exclusion_1>org.jboss.netty__netty</m:dependency.management__org.hbase__asynchbase__exclusion_1>
+		<m:dependency.management__org.apache.flume__flume-ng-auth__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-auth__version>
+		<m:dependency.management__org.mockito__mockito-all__version>1.9.0</m:dependency.management__org.mockito__mockito-all__version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient__version>4.2.1</m:dependency.management__org.apache.httpcomponents__httpclient__version>
+		<m:dependency.management__org.apache.curator__curator-test__version>2.6.0</m:dependency.management__org.apache.curator__curator-test__version>
+		<m:dependency.management__xalan__xalan__version>2.7.2</m:dependency.management__xalan__xalan__version>
+		<m:dependency.management__org.apache.avro__avro-ipc__version>1.7.4</m:dependency.management__org.apache.avro__avro-ipc__version>
+		<m:dependency.management__org.kitesdk__kite-data-core__version>1.0.0</m:dependency.management__org.kitesdk__kite-data-core__version>
+		<m:dependency.management__org.apache.thrift__libthrift__version>0.7.0</m:dependency.management__org.apache.thrift__libthrift__version>
+		<m:dependency.management__org.apache.flume.flume-ng-channels__flume-kafka-channel__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-channels__flume-kafka-channel__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-kafka-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-kafka-sink__version>
+		<m:dependency.management__org.mapdb__mapdb__version>0.9.9</m:dependency.management__org.mapdb__mapdb__version>
+		<m:properties__targetJavaVersion>1.6</m:properties__targetJavaVersion>
+		<m:dependency.management__org.apache.flume.flume-ng-channels__flume-spillable-memory-channel__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-channels__flume-spillable-memory-channel__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-hdfs-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-hdfs-sink__version>
+		<m:dependency.management__org.apache.commons__commons-compress__version>1.4.1</m:dependency.management__org.apache.commons__commons-compress__version>
+		<m:dependency.management__commons-cli__commons-cli__version>1.2</m:dependency.management__commons-cli__commons-cli__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.6.1</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.6.1</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.apache.flume__flume-ng-configuration__version>1.6.0</m:dependency.management__org.apache.flume__flume-ng-configuration__version>
+		<m:dependency.management__xalan__xalan__scope>runtime</m:dependency.management__xalan__xalan__scope>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-elasticsearch-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-ng-elasticsearch-sink__version>
+		<m:dependency.management__org.apache.avro__avro__version>1.7.4</m:dependency.management__org.apache.avro__avro__version>
+		<m:properties__xalan.verion>2.7.1</m:properties__xalan.verion>
+		<m:dependency.management__log4j__log4j__exclusion_0>com.sun.jdmk__jmxtools</m:dependency.management__log4j__log4j__exclusion_0>
+		<m:dependency.management__org.twitter4j__twitter4j-stream__version>3.0.3</m:dependency.management__org.twitter4j__twitter4j-stream__version>
+		<m:dependency.management__log4j__log4j__exclusion_1>com.sun.jmx__jmxri</m:dependency.management__log4j__log4j__exclusion_1>
+		<m:properties__sourceJavaVersion>1.6</m:properties__sourceJavaVersion>
+		<m:dependency.management__io.netty__netty__version>3.5.12.Final</m:dependency.management__io.netty__netty__version>
+		<m:dependency.management__org.apache.activemq__activemq-core__version>5.7.0</m:dependency.management__org.apache.activemq__activemq-core__version>
+		<m:dependency.management__org.elasticsearch__elasticsearch__version>0.90.1</m:dependency.management__org.elasticsearch__elasticsearch__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-hive-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-hive-sink__version>
+		<m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>1.9.3</m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>
+		<m:dependency.management__commons-dbcp__commons-dbcp__version>1.4</m:dependency.management__commons-dbcp__commons-dbcp__version>
+		<m:dependency.management__org.apache.hadoop__hadoop__version>${hadoop.version}</m:dependency.management__org.apache.hadoop__hadoop__version>
+		<m:dependency.management__org.apache.flume.flume-ng-channels__flume-recoverable-memory-channel__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-channels__flume-recoverable-memory-channel__version>
+		<m:dependency.management__org.apache.flume.flume-ng-clients__flume-ng-log4jappender__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-clients__flume-ng-log4jappender__version>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:dependency.management__javax.jms__jms__version>1.1</m:dependency.management__javax.jms__jms__version>
+		<m:properties__thrift.version>0.7.0</m:properties__thrift.version>
+		<m:dependency.management__commons-io__commons-io__version>2.1</m:dependency.management__commons-io__commons-io__version>
+		<m:dependency.management__org.apache.flume.flume-ng-legacy-sources__flume-avro-source__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-legacy-sources__flume-avro-source__version>
+		<m:dependency.management__org.easytesting__fest-reflect__version>1.4</m:dependency.management__org.easytesting__fest-reflect__version>
+		<m:dependency.management__org.apache.thrift__libthrift__exclusion_0>javax.servlet__servlet-api</m:dependency.management__org.apache.thrift__libthrift__exclusion_0>
+		<m:dependency.management__org.mockito__mockito-all__scope>test</m:dependency.management__org.mockito__mockito-all__scope>
+		<m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>1.9.3</m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>
+		<m:dependency.management__org.schwering__irclib__version>1.10</m:dependency.management__org.schwering__irclib__version>
+		<m:dependency.management__org.xerial.snappy__snappy-java__version>1.1.0</m:dependency.management__org.xerial.snappy__snappy-java__version>
+		<m:properties__siteUrlDeployment>file://people.apache.org/www/incubator.apache.org/flume</m:properties__siteUrlDeployment>
+		<m:dependency.management__org.apache.solr__solr-cell__version>4.3.0</m:dependency.management__org.apache.solr__solr-cell__version>
+		<m:dependency.management__org.apache.avro__avro-compiler__version>1.7.4</m:dependency.management__org.apache.avro__avro-compiler__version>
+		<m:dependency.management__xalan__serializer__scope>runtime</m:dependency.management__xalan__serializer__scope>
+		<m:properties__elasticsearch.version>0.90.1</m:properties__elasticsearch.version>
+		<m:dependency.management__org.apache.flume.flume-ng-channels__flume-file-channel__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-channels__flume-file-channel__version>
+		<m:dependency.management__org.apache.hive__hive-exec__version>1.0.0</m:dependency.management__org.apache.hive__hive-exec__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.easytesting__fest-reflect__scope>test</m:dependency.management__org.easytesting__fest-reflect__scope>
+		<m:dependency.management__log4j__apache-log4j-extras__version>1.1</m:dependency.management__log4j__apache-log4j-extras__version>
+		<m:dependency.management__org.twitter4j__twitter4j-core__version>3.0.3</m:dependency.management__org.twitter4j__twitter4j-core__version>
+		<m:dependency.management__com.google.protobuf__protobuf-java__scope>compile</m:dependency.management__com.google.protobuf__protobuf-java__scope>
+		<m:dependency.management__joda-time__joda-time__version>2.1</m:dependency.management__joda-time__joda-time__version>
+		<m:dependency.management__org.apache.flume.flume-ng-sinks__flume-irc-sink__version>1.6.0</m:dependency.management__org.apache.flume.flume-ng-sinks__flume-irc-sink__version>
+		<m:dependency.management__org.apache.mina__mina-core__version>2.0.4</m:dependency.management__org.apache.mina__mina-core__version>
+		<m:properties__test.include.pattern>**/Test*.java</m:properties__test.include.pattern>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="flume-ng-core" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.flume" name="flume-ng-sdk" rev="1.6.0" force="true" conf="test->runtime(*),master(compile)">
+			<artifact name="flume-ng-sdk" type="jar" ext="jar" conf="test"/>
+			<artifact name="flume-ng-sdk" type="jar" ext="jar" conf="test" m:classifier="tests"/>
+		</dependency>
+		<dependency org="org.apache.flume" name="flume-ng-configuration" rev="1.6.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.flume" name="flume-ng-auth" rev="1.6.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.google.guava" name="guava" rev="11.0.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-codec" name="commons-codec" rev="1.8" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="junit" name="junit" rev="4.10" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.easytesting" name="fest-reflect" rev="1.4" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="log4j" name="log4j" rev="1.2.17" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)">
+			<exclude org="com.sun.jdmk" module="jmxtools" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jmx" module="jmxri" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-cli" name="commons-cli" rev="1.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.5" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.avro" name="avro" rev="1.7.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.avro" name="avro-ipc" rev="1.7.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)">
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="io.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="io.netty" name="netty" rev="3.5.12.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.mortbay.jetty" name="servlet-api" rev="2.5-20110124" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.26" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.mortbay.jetty" name="jetty" rev="6.1.26" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.google.code.gson" name="gson" rev="2.2.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.2.1" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.9.0" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.apache.thrift" name="libthrift" rev="0.7.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.mina" name="mina-core" rev="2.0.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+	</dependencies>
+</ivy-module>

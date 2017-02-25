@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.calcite"
+		module="calcite-linq4j"
+		revision="1.2.0-incubating"
+		status="release"
+		publication="20150407165957"
+	>
+		<description homepage="">
+		Calcite APIs for LINQ (Language-Integrated Query) in Java
+		</description>
+		<m:properties__build.timestamp>${maven.build.timestamp}</m:properties__build.timestamp>
+		<m:dependency.management__xalan__xalan__version>2.7.1</m:dependency.management__xalan__xalan__version>
+		<m:dependency.management__org.apache.calcite__calcite-core__version>1.2.0-incubating</m:dependency.management__org.apache.calcite__calcite-core__version>
+		<m:dependency.management__net.hydromatic__tpcds__version>0.3</m:dependency.management__net.hydromatic__tpcds__version>
+		<m:dependency.management__net.hydromatic__scott-data-hsqldb__version>0.1</m:dependency.management__net.hydromatic__scott-data-hsqldb__version>
+		<m:properties__version.major>1</m:properties__version.major>
+		<m:dependency.management__org.apache.calcite__calcite-linq4j__version>1.2.0-incubating</m:dependency.management__org.apache.calcite__calcite-linq4j__version>
+		<m:dependency.management__commons-logging__commons-logging__version>1.1.3</m:dependency.management__commons-logging__commons-logging__version>
+		<m:dependency.management__net.hydromatic__quidem__version>0.3</m:dependency.management__net.hydromatic__quidem__version>
+		<m:dependency.management__net.sf.opencsv__opencsv__version>2.3</m:dependency.management__net.sf.opencsv__opencsv__version>
+		<m:dependency.management__org.apache.commons__commons-lang3__version>3.2</m:dependency.management__org.apache.commons__commons-lang3__version>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
+		<m:dependency.management__net.hydromatic__foodmart-data-hsqldb__version>0.3</m:dependency.management__net.hydromatic__foodmart-data-hsqldb__version>
+		<m:properties__version.minor>2</m:properties__version.minor>
+		<m:dependency.management__org.scala-lang__scala-library__version>2.10.3</m:dependency.management__org.scala-lang__scala-library__version>
+		<m:dependency.management__org.apache.calcite__calcite-avatica-server__version>1.2.0-incubating</m:dependency.management__org.apache.calcite__calcite-avatica-server__version>
+		<m:dependency.management__org.mongodb__mongo-java-driver__version>2.12.3</m:dependency.management__org.mongodb__mongo-java-driver__version>
+		<m:dependency.management__net.hydromatic__foodmart-queries__version>0.4.1</m:dependency.management__net.hydromatic__foodmart-queries__version>
+		<m:dependency.management__org.apache.spark__spark-core_2.10__version>0.9.0-incubating</m:dependency.management__org.apache.spark__spark-core_2.10__version>
+		<m:dependency.management__org.eclipse.jetty__jetty-server__version>9.2.7.v20150116</m:dependency.management__org.eclipse.jetty__jetty-server__version>
+		<m:properties__top.dir>${project.basedir}/..</m:properties__top.dir>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>2.1.1</m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>2.1.1</m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>
+		<m:dependency.management__io.airlift.tpch__tpch__version>0.1</m:dependency.management__io.airlift.tpch__tpch__version>
+		<m:dependency.management__commons-dbcp__commons-dbcp__version>1.4</m:dependency.management__commons-dbcp__commons-dbcp__version>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>2.1.1</m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>
+		<m:dependency.management__org.codehaus.janino__janino__version>2.7.6</m:dependency.management__org.codehaus.janino__janino__version>
+		<m:dependency.management__net.hydromatic__eigenbase-properties__version>1.1.5</m:dependency.management__net.hydromatic__eigenbase-properties__version>
+		<m:dependency.management__xerces__xercesImpl__version>2.9.1</m:dependency.management__xerces__xercesImpl__version>
+		<m:dependency.management__org.openjdk.jmh__jmh-generator-annprocess__version>0.7.1</m:dependency.management__org.openjdk.jmh__jmh-generator-annprocess__version>
+		<m:dependency.management__org.pentaho__pentaho-aggdesigner-algorithm__version>5.1.5-jhyde</m:dependency.management__org.pentaho__pentaho-aggdesigner-algorithm__version>
+		<m:properties__maven.compiler.target>1.4</m:properties__maven.compiler.target>
+		<m:dependency.management__org.eclipse.jetty__jetty-util__version>9.2.7.v20150116</m:dependency.management__org.eclipse.jetty__jetty-util__version>
+		<m:dependency.management__mysql__mysql-connector-java__version>5.1.20</m:dependency.management__mysql__mysql-connector-java__version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__2.10|org.apache.maven.plugins__maven-release-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-checkstyle-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__2.10|org.apache.maven.plugins__maven-release-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null</m:maven.plugins>
+		<m:dependency.management__org.apache.calcite__calcite-avatica__version>1.2.0-incubating</m:dependency.management__org.apache.calcite__calcite-avatica__version>
+		<m:dependency.management__com.google.guava__guava__version>14.0.1</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__org.openjdk.jmh__jmh-core__version>0.7.1</m:dependency.management__org.openjdk.jmh__jmh-core__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.codehaus.janino__commons-compiler__version>2.7.6</m:dependency.management__org.codehaus.janino__commons-compiler__version>
+		<m:dependency.management__org.hamcrest__hamcrest-core__version>1.3</m:dependency.management__org.hamcrest__hamcrest-core__version>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:dependency.management__javax.servlet__javax.servlet-api__version>3.0.1</m:dependency.management__javax.servlet__javax.servlet-api__version>
+		<m:dependency.management__org.incava__java-diff__version>1.1</m:dependency.management__org.incava__java-diff__version>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:dependency.management__com.google.code.findbugs__jsr305__version>1.3.9</m:dependency.management__com.google.code.findbugs__jsr305__version>
+		<m:properties__maven.compiler.source>1.4</m:properties__maven.compiler.source>
+		<m:dependency.management__org.hsqldb__hsqldb__version>2.3.1</m:dependency.management__org.hsqldb__hsqldb__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="calcite-linq4j" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.3" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="junit" name="junit" rev="4.11" force="true" conf="test->runtime(*),master(compile)"/>
+		<override org="org.hamcrest" module="hamcrest-core" matcher="exact" rev="1.3"/>
+		<override org="javax.servlet" module="javax.servlet-api" matcher="exact" rev="3.0.1"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="14.0.1"/>
+		<override org="org.apache.commons" module="commons-lang3" matcher="exact" rev="3.2"/>
+		<override org="org.openjdk.jmh" module="jmh-generator-annprocess" matcher="exact" rev="0.7.1"/>
+		<override org="org.eclipse.jetty" module="jetty-server" matcher="exact" rev="9.2.7.v20150116"/>
+		<override org="net.sf.opencsv" module="opencsv" matcher="exact" rev="2.3"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.11"/>
+		<override org="commons-logging" module="commons-logging" matcher="exact" rev="1.1.3"/>
+		<override org="xerces" module="xercesImpl" matcher="exact" rev="2.9.1"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.1.1"/>
+		<override org="org.incava" module="java-diff" matcher="exact" rev="1.1"/>
+		<override org="org.codehaus.janino" module="janino" matcher="exact" rev="2.7.6"/>
+		<override org="org.eclipse.jetty" module="jetty-util" matcher="exact" rev="9.2.7.v20150116"/>
+		<override org="org.mongodb" module="mongo-java-driver" matcher="exact" rev="2.12.3"/>
+		<override org="org.openjdk.jmh" module="jmh-core" matcher="exact" rev="0.7.1"/>
+		<override org="org.apache.calcite" module="calcite-avatica" matcher="exact" rev="1.2.0-incubating"/>
+		<override org="org.apache.calcite" module="calcite-core" matcher="exact" rev="1.2.0-incubating"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.1.1"/>
+		<override org="io.airlift.tpch" module="tpch" matcher="exact" rev="0.1"/>
+		<override org="org.pentaho" module="pentaho-aggdesigner-algorithm" matcher="exact" rev="5.1.5-jhyde"/>
+		<override org="net.hydromatic" module="tpcds" matcher="exact" rev="0.3"/>
+		<override org="commons-dbcp" module="commons-dbcp" matcher="exact" rev="1.4"/>
+		<override org="org.apache.spark" module="spark-core_2.10" matcher="exact" rev="0.9.0-incubating"/>
+		<override org="xalan" module="xalan" matcher="exact" rev="2.7.1"/>
+		<override org="com.google.code.findbugs" module="jsr305" matcher="exact" rev="1.3.9"/>
+		<override org="net.hydromatic" module="foodmart-queries" matcher="exact" rev="0.4.1"/>
+		<override org="org.apache.calcite" module="calcite-linq4j" matcher="exact" rev="1.2.0-incubating"/>
+		<override org="net.hydromatic" module="eigenbase-properties" matcher="exact" rev="1.1.5"/>
+		<override org="net.hydromatic" module="scott-data-hsqldb" matcher="exact" rev="0.1"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.1.1"/>
+		<override org="net.hydromatic" module="quidem" matcher="exact" rev="0.3"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.3"/>
+		<override org="org.codehaus.janino" module="commons-compiler" matcher="exact" rev="2.7.6"/>
+		<override org="org.hsqldb" module="hsqldb" matcher="exact" rev="2.3.1"/>
+		<override org="mysql" module="mysql-connector-java" matcher="exact" rev="5.1.20"/>
+		<override org="net.hydromatic" module="foodmart-data-hsqldb" matcher="exact" rev="0.3"/>
+		<override org="org.apache.calcite" module="calcite-avatica-server" matcher="exact" rev="1.2.0-incubating"/>
+	</dependencies>
+</ivy-module>

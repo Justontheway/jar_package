@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.tachyonproject"
+		module="tachyon-underfs"
+		revision="0.8.2"
+		status="release"
+		publication="20151111175058"
+	>
+		<description homepage="">
+		Parent POM for different implementations of Tachyon under file system
+		</description>
+		<m:dependency.management__org.apache.hadoop__hadoop-minicluster__exclusion_1>org.jboss.netty__netty</m:dependency.management__org.apache.hadoop__hadoop-minicluster__exclusion_1>
+		<m:dependency.management__org.apache.hadoop__hadoop-minicluster__exclusion_0>asm__asm</m:dependency.management__org.apache.hadoop__hadoop-minicluster__exclusion_0>
+		<m:dependency.management__org.apache.curator__curator-test__version>2.1.0-incubating</m:dependency.management__org.apache.curator__curator-test__version>
+		<m:properties__checkstyle.path>${project.parent.basedir}/build/checkstyle/</m:properties__checkstyle.path>
+		<m:properties__junit.version>4.12</m:properties__junit.version>
+		<m:dependency.management__org.apache.thrift__libthrift__version>0.9.2</m:dependency.management__org.apache.thrift__libthrift__version>
+		<m:dependency.management__org.powermock__powermock-api-mockito__version>1.6.1</m:dependency.management__org.powermock__powermock-api-mockito__version>
+		<m:dependency.management__org.apache.mesos__mesos__version>0.23.0</m:dependency.management__org.apache.mesos__mesos__version>
+		<m:properties__hadoop.version>1.0.4</m:properties__hadoop.version>
+		<m:dependency.management__org.powermock__powermock-module-junit4__version>1.6.1</m:dependency.management__org.powermock__powermock-module-junit4__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.2</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.7.2</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.apache.commons__commons-lang3__version>3.0</m:dependency.management__org.apache.commons__commons-lang3__version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+		<m:dependency.management__org.apache.hadoop__hadoop-client__version>1.0.4</m:dependency.management__org.apache.hadoop__hadoop-client__version>
+		<m:dependency.management__org.apache.hadoop__hadoop-test__version>1.0.4</m:dependency.management__org.apache.hadoop__hadoop-test__version>
+		<m:properties__powermock.version>1.6.1</m:properties__powermock.version>
+		<m:properties__slf4j.version>1.7.2</m:properties__slf4j.version>
+		<m:dependency.management__org.powermock__powermock-reflect__version>1.6.1</m:dependency.management__org.powermock__powermock-reflect__version>
+		<m:properties__cxf.version>2.7.0</m:properties__cxf.version>
+		<m:dependency.management__org.apache.hadoop__hadoop-test__scope>test</m:dependency.management__org.apache.hadoop__hadoop-test__scope>
+		<m:dependency.management__org.powermock__powermock-core__version>1.6.1</m:dependency.management__org.powermock__powermock-core__version>
+		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
+		<m:properties__apache.curator.version>2.1.0-incubating</m:properties__apache.curator.version>
+		<m:dependency.management__org.apache.curator__curator-test__scope>test</m:dependency.management__org.apache.curator__curator-test__scope>
+		<m:dependency.management__org.apache.curator__curator-test__exclusion_0>org.javassist__javassist</m:dependency.management__org.apache.curator__curator-test__exclusion_0>
+		<m:dependency.management__org.apache.thrift__libthrift__exclusion_0>org.slf4j__slf4j-api</m:dependency.management__org.apache.thrift__libthrift__exclusion_0>
+		<m:properties__license.header.path>${project.parent.basedir}/build/license/</m:properties__license.header.path>
+		<m:properties__hadoop-openstack.version>2.6.0</m:properties__hadoop-openstack.version>
+		<m:properties__metrics.version>3.1.0</m:properties__metrics.version>
+		<m:dependency.management__org.powermock__powermock-reflect__scope>test</m:dependency.management__org.powermock__powermock-reflect__scope>
+		<m:properties__findbugs.path>${project.parent.basedir}/build/findbugs/</m:properties__findbugs.path>
+		<m:dependency.management__org.apache.hadoop__hadoop-minicluster__version>1.0.4</m:dependency.management__org.apache.hadoop__hadoop-minicluster__version>
+		<m:dependency.management__org.mockito__mockito-all__scope>test</m:dependency.management__org.mockito__mockito-all__scope>
+		<m:properties__java.version>1.6</m:properties__java.version>
+		<m:dependency.management__org.powermock__powermock-module-junit4__scope>test</m:dependency.management__org.powermock__powermock-module-junit4__scope>
+		<m:dependency.management__org.powermock__powermock-core__scope>test</m:dependency.management__org.powermock__powermock-core__scope>
+		<m:properties__jetty.version>7.6.15.v20140411</m:properties__jetty.version>
+		<m:dependency.management__org.powermock__powermock-api-mockito__scope>test</m:dependency.management__org.powermock__powermock-api-mockito__scope>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-assembly-plugin__2.3|org.apache.maven.plugins__maven-source-plugin__2.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9|org.codehaus.mojo__findbugs-maven-plugin__2.5.2|org.apache.maven.plugins__maven-checkstyle-plugin__2.13|com.mycila__license-maven-plugin__2.9|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-assembly-plugin__2.3|org.apache.maven.plugins__maven-source-plugin__2.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9|org.codehaus.mojo__findbugs-maven-plugin__2.5.2|org.apache.maven.plugins__maven-checkstyle-plugin__2.13|com.mycila__license-maven-plugin__2.9</m:maven.plugins>
+		<m:properties__test.output.redirect>true</m:properties__test.output.redirect>
+		<m:dependency.management__com.google.guava__guava__version>14.0.1</m:dependency.management__com.google.guava__guava__version>
+		<m:properties__libthrift.version>0.9.2</m:properties__libthrift.version>
+		<m:properties__log4j.version>1.2.17</m:properties__log4j.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_2>com.google.guava__guava</m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_2>
+		<m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_1>org.jboss.netty__netty</m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_1>
+		<m:properties__glusterfs-hadoop.version>2.3.13</m:properties__glusterfs-hadoop.version>
+		<m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_0>asm__asm</m:dependency.management__org.apache.hadoop__hadoop-client__exclusion_0>
+		<m:dependency.management__org.mockito__mockito-all__version>1.10.8</m:dependency.management__org.mockito__mockito-all__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

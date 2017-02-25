@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.eclipse.paho"
+		module="java-parent"
+		revision="1.0.1"
+		status="release"
+		publication="20141127202035"
+	>
+		<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php" />
+		<description homepage="http://www.eclipse.org/paho">
+		The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine to Machine (M2M) and Internet of Things (IoT).
+		</description>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:properties__java.version>1.6</m:properties__java.version>
+		<m:properties__kepler.repo.url>http://download.eclipse.org/releases/kepler</m:properties__kepler.repo.url>
+		<m:properties__build.level>${maven.build.timestamp}</m:properties__build.level>
+		<m:properties__mqttclient.java.version>1.4</m:properties__mqttclient.java.version>
+		<m:properties__download.location>/home/data/httpd/download.eclipse.org/paho/releases/${project.version}/Java</m:properties__download.location>
+		<m:properties__tycho.version>0.20.0</m:properties__tycho.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__test.exclude>**/*ConformantTest.java</m:properties__test.exclude>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

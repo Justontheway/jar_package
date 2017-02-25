@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.spark-project.hive"
+		module="hive-metastore"
+		revision="1.2.1.spark"
+		status="release"
+		publication="20150801024825"
+	>
+		<description homepage="" />
+		<m:properties__groovy.version>2.1.6</m:properties__groovy.version>
+		<m:dependency.management__com.twitter__parquet-column__version>1.6.0</m:dependency.management__com.twitter__parquet-column__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.4</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__org.apache.curator__curator-recipes__version>2.6.0</m:dependency.management__org.apache.curator__curator-recipes__version>
+		<m:properties__commons-logging.version>1.1.3</m:properties__commons-logging.version>
+		<m:dependency.management__com.jolbox__bonecp__version>0.8.0.RELEASE</m:dependency.management__com.jolbox__bonecp__version>
+		<m:dependency.management__org.apache.derby__derby__version>10.10.2.0</m:dependency.management__org.apache.derby__derby__version>
+		<m:dependency.management__org.apache.curator__curator-client__version>2.6.0</m:dependency.management__org.apache.curator__curator-client__version>
+		<m:properties__ST4.version>4.0.4</m:properties__ST4.version>
+		<m:properties__datanucleus-rdbms.version>3.2.9</m:properties__datanucleus-rdbms.version>
+		<m:properties__junit.version>4.11</m:properties__junit.version>
+		<m:properties__wadl-resourcedoc-doclet.version>1.4</m:properties__wadl-resourcedoc-doclet.version>
+		<m:properties__hadoop.bin.path>${basedir}/${hive.path.to.root}/testutils/hadoop</m:properties__hadoop.bin.path>
+		<m:properties__maven.dependency.plugin.version>2.8</m:properties__maven.dependency.plugin.version>
+		<m:properties__ant.contrib.version>1.0b3</m:properties__ant.contrib.version>
+		<m:dependency.management__org.apache.accumulo__accumulo-start__version>1.6.0</m:dependency.management__org.apache.accumulo__accumulo-start__version>
+		<m:properties__hbase.hadoop1.version>0.98.9-hadoop1</m:properties__hbase.hadoop1.version>
+		<m:dependency.management__org.apache.pig__pig__version>0.12.0</m:dependency.management__org.apache.pig__pig__version>
+		<m:dependency.management__javolution__javolution__version>5.5.1</m:dependency.management__javolution__javolution__version>
+		<m:dependency.management__io.netty__netty-all__version>4.0.23.Final</m:dependency.management__io.netty__netty-all__version>
+		<m:dependency.management__org.apache.accumulo__accumulo-fate__version>1.6.0</m:dependency.management__org.apache.accumulo__accumulo-fate__version>
+		<m:dependency.management__org.codehaus.jackson__jackson-xc__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-xc__version>
+		<m:dependency.management__org.json__json__version>20090211</m:dependency.management__org.json__json__version>
+		<m:properties__maven.repo.local>${settings.localRepository}</m:properties__maven.repo.local>
+		<m:properties__xerces.version>2.9.1</m:properties__xerces.version>
+		<m:dependency.management__org.apache.activemq__kahadb__version>5.5.0</m:dependency.management__org.apache.activemq__kahadb__version>
+		<m:properties__maven.enforcer.plugin.version>1.3.1</m:properties__maven.enforcer.plugin.version>
+		<m:dependency.management__commons-logging__commons-logging__version>1.1.3</m:dependency.management__commons-logging__commons-logging__version>
+		<m:dependency.management__org.apache.avro__avro-mapred__version>1.7.5</m:dependency.management__org.apache.avro__avro-mapred__version>
+		<m:properties__pig.version>0.12.0</m:properties__pig.version>
+		<m:properties__jms.version>1.1</m:properties__jms.version>
+		<m:dependency.management__org.apache.curator__curator-framework__version>2.6.0</m:dependency.management__org.apache.curator__curator-framework__version>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:dependency.management__com.sun.jersey__jersey-servlet__version>1.14</m:dependency.management__com.sun.jersey__jersey-servlet__version>
+		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
+		<m:dependency.management__org.datanucleus__datanucleus-core__version>3.2.10</m:dependency.management__org.datanucleus__datanucleus-core__version>
+		<m:properties__activemq.version>5.5.0</m:properties__activemq.version>
+		<m:properties__scala.version>2.10.4</m:properties__scala.version>
+		<m:dependency.management__org.datanucleus__datanucleus-api-jdo__version>3.2.6</m:dependency.management__org.datanucleus__datanucleus-api-jdo__version>
+		<m:dependency.management__com.sun.jersey.contribs__wadl-resourcedoc-doclet__version>1.4</m:dependency.management__com.sun.jersey.contribs__wadl-resourcedoc-doclet__version>
+		<m:properties__parquet.version>1.6.0</m:properties__parquet.version>
+		<m:properties__datanucleus-core.version>3.2.10</m:properties__datanucleus-core.version>
+		<m:properties__super-csv.version>2.2.0</m:properties__super-csv.version>
+		<m:dependency.management__com.google.code.tempus-fugit__tempus-fugit__version>1.1</m:dependency.management__com.google.code.tempus-fugit__tempus-fugit__version>
+		<m:properties__hive.version.shortname>1.2.0</m:properties__hive.version.shortname>
+		<m:properties__maven.war.plugin.version>2.4</m:properties__maven.war.plugin.version>
+		<m:properties__commons-pool.version>1.5.4</m:properties__commons-pool.version>
+		<m:properties__jsr305.version>3.0.0</m:properties__jsr305.version>
+		<m:dependency.management__org.apache.zookeeper__zookeeper__version>3.4.6</m:dependency.management__org.apache.zookeeper__zookeeper__version>
+		<m:properties__ant.version>1.9.1</m:properties__ant.version>
+		<m:properties__commons-cli.version>1.2</m:properties__commons-cli.version>
+		<m:properties__maven.jar.plugin.version>2.2</m:properties__maven.jar.plugin.version>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:properties__jline.version>2.12</m:properties__jline.version>
+		<m:dependency.management__log4j__log4j__version>1.2.16</m:dependency.management__log4j__log4j__version>
+		<m:properties__commons-codec.version>1.4</m:properties__commons-codec.version>
+		<m:dependency.management__org.apache.velocity__velocity__version>1.5</m:dependency.management__org.apache.velocity__velocity__version>
+		<m:dependency.management__com.twitter__parquet-hadoop-bundle__version>1.6.0</m:dependency.management__com.twitter__parquet-hadoop-bundle__version>
+		<m:dependency.management__org.apache.zookeeper__zookeeper__exclusion_0>org.jboss.netty__netty</m:dependency.management__org.apache.zookeeper__zookeeper__exclusion_0>
+		<m:properties__maven.checkstyle.plugin.version>2.12.1</m:properties__maven.checkstyle.plugin.version>
+		<m:properties__test.warehouse.scheme>pfile://</m:properties__test.warehouse.scheme>
+		<m:properties__hadoop-20S.version>1.2.1</m:properties__hadoop-20S.version>
+		<m:dependency.management__jline__jline__version>2.12</m:dependency.management__jline__jline__version>
+		<m:properties__accumulo.version>1.6.0</m:properties__accumulo.version>
+		<m:properties__hive.path.to.root>..</m:properties__hive.path.to.root>
+		<m:properties__zookeeper.version>3.4.6</m:properties__zookeeper.version>
+		<m:properties__hive.jdbc.driver.classifier>standalone</m:properties__hive.jdbc.driver.classifier>
+		<m:dependency.management__javax.jdo__jdo-api__version>3.0.1</m:dependency.management__javax.jdo__jdo-api__version>
+		<m:properties__hbase.hadoop2.version>0.98.9-hadoop2</m:properties__hbase.hadoop2.version>
+		<m:dependency.management__org.antlr__antlr-runtime__version>3.4</m:dependency.management__org.antlr__antlr-runtime__version>
+		<m:properties__maven.eclipse.plugin.version>2.9</m:properties__maven.eclipse.plugin.version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-gpg-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-clean-plugin__2.5|org.apache.maven.plugins__maven-checkstyle-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.rat__apache-rat-plugin__0.10|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-gpg-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-clean-plugin__2.5|org.apache.maven.plugins__maven-checkstyle-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.rat__apache-rat-plugin__0.10|org.antlr__antlr3-maven-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.datanucleus__datanucleus-maven-plugin__null</m:maven.plugins>
+		<m:properties__javaewah.version>0.3.2</m:properties__javaewah.version>
+		<m:dependency.management__org.apache.activemq__activemq-core__exclusion_0>org.springframework__spring-context</m:dependency.management__org.apache.activemq__activemq-core__exclusion_0>
+		<m:dependency.management__org.apache.accumulo__accumulo-core__version>1.6.0</m:dependency.management__org.apache.accumulo__accumulo-core__version>
+		<m:dependency.management__com.google.protobuf__protobuf-java__version>2.5.0</m:dependency.management__com.google.protobuf__protobuf-java__version>
+		<m:dependency.management__com.google.guava__guava__version>14.0.1</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__commons-lang__commons-lang__version>2.6</m:dependency.management__commons-lang__commons-lang__version>
+		<m:properties__jersey.version>1.14</m:properties__jersey.version>
+		<m:properties__maven.compiler.useIncrementalCompilation>false</m:properties__maven.compiler.useIncrementalCompilation>
+		<m:properties__test.tmp.dir>${project.build.directory}/tmp</m:properties__test.tmp.dir>
+		<m:properties__avro.version>1.7.5</m:properties__avro.version>
+		<m:properties__javolution.version>5.5.1</m:properties__javolution.version>
+		<m:dependency.management__com.sun.jersey__jersey-core__version>1.14</m:dependency.management__com.sun.jersey__jersey-core__version>
+		<m:properties__mina.version>2.0.0-M5</m:properties__mina.version>
+		<m:properties__log4j-extras.version>1.2.17</m:properties__log4j-extras.version>
+		<m:properties__kryo.version>2.21</m:properties__kryo.version>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:properties__curator.version>2.6.0</m:properties__curator.version>
+		<m:dependency.management__org.apache.accumulo__accumulo-minicluster__version>1.6.0</m:dependency.management__org.apache.accumulo__accumulo-minicluster__version>
+		<m:properties__snappy.version>0.2</m:properties__snappy.version>
+		<m:dependency.management__org.codehaus.jackson__jackson-jaxrs__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-jaxrs__version>
+		<m:properties__tez.version>0.5.2</m:properties__tez.version>
+		<m:dependency.management__org.mockito__mockito-all__version>1.9.5</m:dependency.management__org.mockito__mockito-all__version>
+		<m:properties__maven.shade.plugin.version>2.2</m:properties__maven.shade.plugin.version>
+		<m:properties__commons-io.version>2.4</m:properties__commons-io.version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient__version>4.4</m:dependency.management__org.apache.httpcomponents__httpclient__version>
+		<m:properties__bonecp.version>0.8.0.RELEASE</m:properties__bonecp.version>
+		<m:properties__checkstyle.conf.dir>${hive.path.to.root}/checkstyle</m:properties__checkstyle.conf.dir>
+		<m:properties__commons-lang.version>2.6</m:properties__commons-lang.version>
+		<m:dependency.management__org.apache.thrift__libthrift__version>0.9.2</m:dependency.management__org.apache.thrift__libthrift__version>
+		<m:properties__felix.version>2.4.0</m:properties__felix.version>
+		<m:properties__test.hive.hadoop.classpath>${maven.test.classpath}</m:properties__test.hive.hadoop.classpath>
+		<m:properties__jodd.version>3.5.2</m:properties__jodd.version>
+		<m:properties__test.log4j.scheme>file://</m:properties__test.log4j.scheme>
+		<m:dependency.management__org.codehaus.groovy__groovy-all__version>2.1.6</m:dependency.management__org.codehaus.groovy__groovy-all__version>
+		<m:dependency.management__com.esotericsoftware.kryo__kryo__version>2.21</m:dependency.management__com.esotericsoftware.kryo__kryo__version>
+		<m:dependency.management__org.apache.ant__ant__version>1.9.1</m:dependency.management__org.apache.ant__ant__version>
+		<m:properties__calcite.version>1.2.0-incubating</m:properties__calcite.version>
+		<m:properties__antlr.version>3.4</m:properties__antlr.version>
+		<m:dependency.management__org.apache.commons__commons-compress__version>1.4.1</m:dependency.management__org.apache.commons__commons-compress__version>
+		<m:properties__derby.version>10.10.2.0</m:properties__derby.version>
+		<m:dependency.management__commons-cli__commons-cli__version>1.2</m:dependency.management__commons-cli__commons-cli__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.5</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.7.5</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:properties__mockito-all.version>1.9.5</m:properties__mockito-all.version>
+		<m:dependency.management__org.iq80.snappy__snappy__version>0.2</m:dependency.management__org.iq80.snappy__snappy__version>
+		<m:dependency.management__stax__stax-api__version>1.0.1</m:dependency.management__stax__stax-api__version>
+		<m:properties__commons-compress.version>1.4.1</m:properties__commons-compress.version>
+		<m:properties__httpcomponents.client.version>4.4</m:properties__httpcomponents.client.version>
+		<m:dependency.management__org.apache.avro__avro__version>1.7.5</m:dependency.management__org.apache.avro__avro__version>
+		<m:properties__maven.build-helper.plugin.version>1.8</m:properties__maven.build-helper.plugin.version>
+		<m:dependency.management__com.googlecode.javaewah__JavaEWAH__version>0.3.2</m:dependency.management__com.googlecode.javaewah__JavaEWAH__version>
+		<m:properties__scala.binary.version>2.10</m:properties__scala.binary.version>
+		<m:properties__slf4j.version>1.7.5</m:properties__slf4j.version>
+		<m:properties__jdo-api.version>3.0.1</m:properties__jdo-api.version>
+		<m:properties__opencsv.version>2.3</m:properties__opencsv.version>
+		<m:dependency.management__com.sun.jersey__jersey-json__version>1.14</m:dependency.management__com.sun.jersey__jersey-json__version>
+		<m:dependency.management__org.apache.activemq__activemq-core__version>5.5.0</m:dependency.management__org.apache.activemq__activemq-core__version>
+		<m:properties__jpam.version>1.1</m:properties__jpam.version>
+		<m:properties__protobuf.version>2.5.0</m:properties__protobuf.version>
+		<m:properties__commons-dbcp.version>1.4</m:properties__commons-dbcp.version>
+		<m:properties__datanucleus-api-jdo.version>3.2.6</m:properties__datanucleus-api-jdo.version>
+		<m:properties__json.version>20090211</m:properties__json.version>
+		<m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-core-asl__version>
+		<m:properties__spark.version>1.3.1</m:properties__spark.version>
+		<m:dependency.management__org.eclipse.jetty.aggregate__jetty-all-server__version>7.6.0.v20120127</m:dependency.management__org.eclipse.jetty.aggregate__jetty-all-server__version>
+		<m:properties__httpcomponents.core.version>4.4</m:properties__httpcomponents.core.version>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:properties__commons-httpclient.version>3.0.1</m:properties__commons-httpclient.version>
+		<m:dependency.management__xerces__xercesImpl__version>2.9.1</m:dependency.management__xerces__xercesImpl__version>
+		<m:properties__maven.antrun.plugin.version>1.7</m:properties__maven.antrun.plugin.version>
+		<m:dependency.management__javax.jms__jms__version>1.1</m:dependency.management__javax.jms__jms__version>
+		<m:properties__maven.assembly.plugin.version>2.3</m:properties__maven.assembly.plugin.version>
+		<m:dependency.management__commons-httpclient__commons-httpclient__version>3.0.1</m:dependency.management__commons-httpclient__commons-httpclient__version>
+		<m:dependency.management__org.antlr__ST4__version>4.0.4</m:dependency.management__org.antlr__ST4__version>
+		<m:dependency.management__commons-io__commons-io__version>2.4</m:dependency.management__commons-io__commons-io__version>
+		<m:properties__jackson.version>1.9.2</m:properties__jackson.version>
+		<m:dependency.management__org.apache.httpcomponents__httpcore__version>4.4</m:dependency.management__org.apache.httpcomponents__httpcore__version>
+		<m:properties__test.warehouse.dir>${project.build.directory}/warehouse</m:properties__test.warehouse.dir>
+		<m:properties__hadoop-23.version>2.6.0</m:properties__hadoop-23.version>
+		<m:properties__libfb303.version>0.9.2</m:properties__libfb303.version>
+		<m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>1.9.2</m:dependency.management__org.codehaus.jackson__jackson-mapper-asl__version>
+		<m:properties__maven.surefire.plugin.version>2.16</m:properties__maven.surefire.plugin.version>
+		<m:properties__jetty.version>7.6.0.v20120127</m:properties__jetty.version>
+		<m:properties__guava.version>14.0.1</m:properties__guava.version>
+		<m:properties__velocity.version>1.5</m:properties__velocity.version>
+		<m:properties__joda.version>2.5</m:properties__joda.version>
+		<m:dependency.management__com.sun.jersey__jersey-server__version>1.14</m:dependency.management__com.sun.jersey__jersey-server__version>
+		<m:properties__commons-exec.version>1.1</m:properties__commons-exec.version>
+		<m:properties__commons-lang3.version>3.1</m:properties__commons-lang3.version>
+		<m:properties__maven.install.plugin.version>2.4</m:properties__maven.install.plugin.version>
+		<m:properties__test.tmp.dir.uri>file://${test.tmp.dir}</m:properties__test.tmp.dir.uri>
+		<m:properties__libthrift.version>0.9.2</m:properties__libthrift.version>
+		<m:properties__ivy.version>2.4.0</m:properties__ivy.version>
+		<m:properties__log4j.version>1.2.16</m:properties__log4j.version>
+		<m:properties__netty.version>4.0.23.Final</m:properties__netty.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__log4j__apache-log4j-extras__version>1.2.17</m:dependency.management__log4j__apache-log4j-extras__version>
+		<m:properties__stax.version>1.0.1</m:properties__stax.version>
+		<m:dependency.management__org.datanucleus__datanucleus-rdbms__version>3.2.9</m:dependency.management__org.datanucleus__datanucleus-rdbms__version>
+		<m:properties__maven.compiler.plugin.version>3.1</m:properties__maven.compiler.plugin.version>
+		<m:dependency.management__org.apache.commons__commons-exec__version>1.1</m:dependency.management__org.apache.commons__commons-exec__version>
+		<m:properties__tempus-fugit.version>1.1</m:properties__tempus-fugit.version>
+		<m:properties__datanucleus.maven.plugin.version>3.3.0-release</m:properties__datanucleus.maven.plugin.version>
+		<m:dependency.management__org.apache.accumulo__accumulo-trace__version>1.6.0</m:dependency.management__org.apache.accumulo__accumulo-trace__version>
+		<m:dependency.management__org.apache.thrift__libfb303__version>0.9.2</m:dependency.management__org.apache.thrift__libfb303__version>
+		<m:properties__maven.javadoc.plugin.version>2.4</m:properties__maven.javadoc.plugin.version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="hive-metastore" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.spark-project.hive" name="hive-serde" rev="1.2.1.spark" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.spark-project.hive" name="hive-shims" rev="1.2.1.spark" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.jolbox" name="bonecp" rev="0.8.0.RELEASE" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-cli" name="commons-cli" rev="1.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.3" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.derby" name="derby" rev="10.10.2.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.datanucleus" name="datanucleus-api-jdo" rev="3.2.6" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.datanucleus" name="datanucleus-core" rev="3.2.10" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.datanucleus" name="datanucleus-rdbms" rev="3.2.9" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-pool" name="commons-pool" rev="1.5.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="commons-dbcp" name="commons-dbcp" rev="1.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="javax.jdo" name="jdo-api" rev="3.0.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.antlr" name="antlr-runtime" rev="3.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.thrift" name="libfb303" rev="0.9.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.apache.thrift" name="libthrift" rev="0.9.2" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="junit" name="junit" rev="4.11" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.9.5" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.5" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<override org="javolution" module="javolution" matcher="exact" rev="5.5.1"/>
+		<override org="org.apache.accumulo" module="accumulo-trace" matcher="exact" rev="1.6.0"/>
+		<override org="org.mockito" module="mockito-all" matcher="exact" rev="1.9.5"/>
+		<override org="com.jolbox" module="bonecp" matcher="exact" rev="0.8.0.RELEASE"/>
+		<override org="com.sun.jersey" module="jersey-json" matcher="exact" rev="1.14"/>
+		<override org="com.google.code.tempus-fugit" module="tempus-fugit" matcher="exact" rev="1.1"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="14.0.1"/>
+		<override org="org.apache.thrift" module="libthrift" matcher="exact" rev="0.9.2"/>
+		<override org="org.apache.derby" module="derby" matcher="exact" rev="10.10.2.0"/>
+		<override org="org.apache.velocity" module="velocity" matcher="exact" rev="1.5"/>
+		<override org="org.datanucleus" module="datanucleus-rdbms" matcher="exact" rev="3.2.9"/>
+		<override org="org.apache.ant" module="ant" matcher="exact" rev="1.9.1"/>
+		<override org="com.googlecode.javaewah" module="JavaEWAH" matcher="exact" rev="0.3.2"/>
+		<override org="org.apache.activemq" module="activemq-core" matcher="exact" rev="5.5.0"/>
+		<override org="com.twitter" module="parquet-column" matcher="exact" rev="1.6.0"/>
+		<override org="com.twitter" module="parquet-hadoop-bundle" matcher="exact" rev="1.6.0"/>
+		<override org="org.apache.curator" module="curator-client" matcher="exact" rev="2.6.0"/>
+		<override org="org.apache.curator" module="curator-framework" matcher="exact" rev="2.6.0"/>
+		<override org="com.sun.jersey" module="jersey-servlet" matcher="exact" rev="1.14"/>
+		<override org="org.apache.commons" module="commons-exec" matcher="exact" rev="1.1"/>
+		<override org="org.datanucleus" module="datanucleus-api-jdo" matcher="exact" rev="3.2.6"/>
+		<override org="org.codehaus.jackson" module="jackson-jaxrs" matcher="exact" rev="1.9.2"/>
+		<override org="commons-httpclient" module="commons-httpclient" matcher="exact" rev="3.0.1"/>
+		<override org="javax.jms" module="jms" matcher="exact" rev="1.1"/>
+		<override org="commons-lang" module="commons-lang" matcher="exact" rev="2.6"/>
+		<override org="javax.jdo" module="jdo-api" matcher="exact" rev="3.0.1"/>
+		<override org="org.antlr" module="ST4" matcher="exact" rev="4.0.4"/>
+		<override org="org.apache.accumulo" module="accumulo-minicluster" matcher="exact" rev="1.6.0"/>
+		<override org="log4j" module="log4j" matcher="exact" rev="1.2.16"/>
+		<override org="com.sun.jersey" module="jersey-server" matcher="exact" rev="1.14"/>
+		<override org="org.apache.zookeeper" module="zookeeper" matcher="exact" rev="3.4.6"/>
+		<override org="commons-codec" module="commons-codec" matcher="exact" rev="1.4"/>
+		<override org="org.codehaus.jackson" module="jackson-xc" matcher="exact" rev="1.9.2"/>
+		<override org="org.apache.commons" module="commons-compress" matcher="exact" rev="1.4.1"/>
+		<override org="com.esotericsoftware.kryo" module="kryo" matcher="exact" rev="2.21"/>
+		<override org="org.eclipse.jetty.aggregate" module="jetty-all-server" matcher="exact" rev="7.6.0.v20120127"/>
+		<override org="io.netty" module="netty-all" matcher="exact" rev="4.0.23.Final"/>
+		<override org="org.json" module="json" matcher="exact" rev="20090211"/>
+		<override org="org.slf4j" module="slf4j-log4j12" matcher="exact" rev="1.7.5"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.11"/>
+		<override org="commons-cli" module="commons-cli" matcher="exact" rev="1.2"/>
+		<override org="commons-logging" module="commons-logging" matcher="exact" rev="1.1.3"/>
+		<override org="com.sun.jersey" module="jersey-core" matcher="exact" rev="1.14"/>
+		<override org="xerces" module="xercesImpl" matcher="exact" rev="2.9.1"/>
+		<override org="com.google.protobuf" module="protobuf-java" matcher="exact" rev="2.5.0"/>
+		<override org="com.sun.jersey.contribs" module="wadl-resourcedoc-doclet" matcher="exact" rev="1.4"/>
+		<override org="org.apache.httpcomponents" module="httpclient" matcher="exact" rev="4.4"/>
+		<override org="org.apache.httpcomponents" module="httpcore" matcher="exact" rev="4.4"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.5"/>
+		<override org="org.apache.accumulo" module="accumulo-core" matcher="exact" rev="1.6.0"/>
+		<override org="org.antlr" module="antlr-runtime" matcher="exact" rev="3.4"/>
+		<override org="org.codehaus.jackson" module="jackson-core-asl" matcher="exact" rev="1.9.2"/>
+		<override org="org.codehaus.groovy" module="groovy-all" matcher="exact" rev="2.1.6"/>
+		<override org="org.apache.curator" module="curator-recipes" matcher="exact" rev="2.6.0"/>
+		<override org="org.apache.thrift" module="libfb303" matcher="exact" rev="0.9.2"/>
+		<override org="org.apache.accumulo" module="accumulo-fate" matcher="exact" rev="1.6.0"/>
+		<override org="org.apache.accumulo" module="accumulo-start" matcher="exact" rev="1.6.0"/>
+		<override org="org.apache.activemq" module="kahadb" matcher="exact" rev="5.5.0"/>
+		<override org="org.apache.avro" module="avro" matcher="exact" rev="1.7.5"/>
+		<override org="jline" module="jline" matcher="exact" rev="2.12"/>
+		<override org="log4j" module="apache-log4j-extras" matcher="exact" rev="1.2.17"/>
+		<override org="org.codehaus.jackson" module="jackson-mapper-asl" matcher="exact" rev="1.9.2"/>
+		<override org="org.apache.pig" module="pig" matcher="exact" rev="0.12.0"/>
+		<override org="commons-io" module="commons-io" matcher="exact" rev="2.4"/>
+		<override org="org.datanucleus" module="datanucleus-core" matcher="exact" rev="3.2.10"/>
+		<override org="stax" module="stax-api" matcher="exact" rev="1.0.1"/>
+		<override org="org.iq80.snappy" module="snappy" matcher="exact" rev="0.2"/>
+		<override org="org.apache.avro" module="avro-mapred" matcher="exact" rev="1.7.5"/>
+	</dependencies>
+</ivy-module>
